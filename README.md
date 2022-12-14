@@ -5,7 +5,7 @@
 * in VM there's alot of resources that doesn't required, I want just to run my app so we will depend on OS kerenl and only install required dependencies
 * it's a way to bundle app with its requirements and dependencies
 * based on linux `cgroup` => control processes resources and `namespace` that isolate processes and its child.
-* docker run -it --name cont_name -p80:80 (port) -v volume|absolute_path$(pwd):/location_in_container --network (network name) --add-host host:ip img command
+* `docker run -it --name cont_name -p80:80 (port) -v volume|absolute_path$(pwd):/location_in_container --network (network name) --add-host host:ip img command`
 
 ## Images
 
