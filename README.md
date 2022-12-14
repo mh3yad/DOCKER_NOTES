@@ -10,13 +10,13 @@
 ## Images
 
 ```bash
-docker image pull 
+docker image pull img -> pull img from docker hub 
 docker image ls
 docker image rm | docker rmi
 docker build . -t image_name
 docker commit container img_name -> create img
-docker image tag img mh3yad/tag_img
-docker image push mh3yad/tag_img
+docker image tag img mh3yad/tag_img -> new tag for existing img
+docker image push mh3yad/tag_img -> push to docker hub
 ```
 
 ## Containers
